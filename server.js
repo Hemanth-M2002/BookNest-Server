@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 7001;
 app.use(cors()); 
 app.use(
   cors({
-    origin: "https://booknest-server-kju1.onrender.com",
+    origin: "http://localhost:3000", 
   })
 );
 
